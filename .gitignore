@@ -1,0 +1,53 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database files
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Storage and queue directories
+storage/
+queue/
+models/
+
+# Node modules
+node_modules/
+frontend/build/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Keys and certificates
+*.key
+*.pem
+*.crt

@@ -1,0 +1,32 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+/* Loading animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  div[style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+  
+  form[style*="flex"] {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  
+  input[style*="flex: 1"] {
+    min-width: auto !important;
+  }
+}
